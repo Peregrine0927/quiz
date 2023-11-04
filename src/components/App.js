@@ -1,5 +1,16 @@
+import "../styles/App.css";
+import Layout from "./Layout";
+import Signup from "./pages/Signup";
+
 function App() {
-  return <div>Hello Bangladesh Cricket</div>;
+  return (
+    <>
+      <Layout>
+        {/* <Home /> */}
+        <Signup />
+      </Layout>
+    </>
+  );
 }
 
 export default App;
